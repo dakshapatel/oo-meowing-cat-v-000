@@ -1,14 +1,14 @@
+require 'pry'
+
 ## code your solution here.
 class  Cat
 
 attr_accessor :name
 
-def call
+def meow
   puts "meow"
 
 end
 end
 
-maru = Cat.new
-maru.call
-
+maru =Cat.new
