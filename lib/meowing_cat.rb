@@ -8,3 +8,7 @@ def call
 
 end
 end
+
+maru = Cat.new
+maru.call
+
